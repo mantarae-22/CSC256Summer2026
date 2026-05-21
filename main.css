@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div{
+    color: lightblue;
+    font-size: x-large;
+    margin-bottom: 10px;        
+}
+
+.img-surf{
+    width: 400px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+@media (max-width: 768px){
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
