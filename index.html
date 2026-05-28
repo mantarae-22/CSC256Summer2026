@@ -15,13 +15,22 @@
     <main>
         <section>
             <h2>My info:</h2>
-            <div>Major: Surfing</div>
-            <div>Email: myemail@email.com</div>
-            <div>Expected Graduation Date: May 2035</div>
+            <div id="divMajor"></div>
+            <div id="divEmail"></div>
+            <div id="divGradDate"></div>
         </section>
         <section>
             <img src="./images/surf_boards.jpg" alt="Surf boards" class="img-surf">
         </section>
     </main>
+
+    <!-- include a reference to the external JavaScript file -->
+    <script src="script.js"></script>
+
+    <!-- this script section will let us call the code to add the text to our page -->
+    <script>
+        // call the function
+        loadInfo();
+    </script>
 </body>
 </html>
