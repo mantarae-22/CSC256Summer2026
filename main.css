@@ -27,6 +27,21 @@ div{
     max-width: 100%;
 }
 
+button{
+    background-color: rgb(115, 77, 243);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    font-size: large;
+}
+
+button:hover{
+    color: rgb(115, 77, 243);
+    background-color: white;
+}
+
 @media (max-width: 768px){
     main{
         flex-direction: column;

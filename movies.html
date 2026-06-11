@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List Tracker</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+    <header>
+        <h1>Movie List Tracker</h1>
+    </header>
+    <main>
+        <!-- we don't want this form to submit at this time: onsubmit="return false;" -->
+        <form>
+            <div>
+                <label for="txtMovie">Movie Name: </label>
+                <input type="text" id="txtMovie" name="txtMovie" placeholder="ex, Movie Time">
+            </div>
+
+            <!-- we can also add type="button" to prevent the browser from assuming these are submit buttons and not just regular old plain buttons -->
+            <button type="button" onclick="addMovie()">Add Movie</button>
+            <button type="button" onclick="resetMovieList()">Reset List</button>
+
+            <div id="divMovies">
+                ...add a movie...
+            </div>
+        </form>
+    </main>
+    <!-- include the movie code -->
+    <script src="movie.js"></script>
+</body>
+</html>
