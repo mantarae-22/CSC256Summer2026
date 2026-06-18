@@ -1,0 +1,21 @@
+h1{
+    color: rgb(230, 74, 74);
+}
+
+main{
+    display: block;
+    text-align: center;
+}
+
+div{
+    color: rgb(244, 163, 163);
+    font-size: large;
+}
+
+button{
+    background-color: coral;
+}
+
+button:hover{
+    color: coral;
+}
