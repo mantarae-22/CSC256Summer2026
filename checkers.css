@@ -1,0 +1,44 @@
+  body{
+    background-color: lightgrey;
+  }
+  
+  header{
+    text-align: center;
+  }
+
+  /* since there is only 1 checkers board on the page, style it using id */
+  #divCheckersboard{
+    /* I am going to build a square board that is easily divisible by 8 */
+    width: 560px;
+    height: 560px;
+    border: 1px solid blue;
+    margin: 0 auto;
+}
+
+/* build the styles for each square */
+.checkers-square{
+    /* this forces the squares to line up next to each other */
+    float: left;
+    width: 70px;
+    height: 70px;
+    background-color: lightblue;
+}
+
+/* build the round checkers piece */
+.checker-piece{
+  width: 65px;
+  height: 65px;
+  margin: 2.5px;
+  /* this should create a circle */
+  border-radius: 50%;
+}
+
+.checker-piece-w{
+  background-color: ivory;
+  box-shadow: 4px 4px 4px rgb(185, 36, 36);
+}
+
+.checker-piece-b{
+  background-color: rgb(106, 31, 31);
+  box-shadow: 4px 4px 4px rgb(234, 224, 224);
+}
