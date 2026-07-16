@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-a-Bot</title>
+    <link rel="stylesheet" href="whackabot.css">
+    <script src="whackabot.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Play Whack-a-Bot</h1>
+        <h2>show those robots who's the boss</h2>
+    </header>
+    <main>
+        <div class="score">Score: <span id="spnScore"></span></div>
+        <div id="gameBoard">
+            <!-- build 6 holes that the bots will pop up in randomly -->
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+        </div>
+
+        <button onclick="playGame();">Play Game</button>
+    </main>
+</body>
+</html>

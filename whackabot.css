@@ -1,0 +1,48 @@
+/* styles for the game board with a flex layout so the holes move around as needed */
+#gameBoard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: lightgray;
+    border: 3px solid maroon;
+    max-width: 400px;
+}
+
+/* styles to make round holes */
+.hole{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    /* 50% gives us round holes */
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+/* style for the bot that will pop up */
+.bot{
+    background-color: yellow;
+    box-shadow: 4px 4px 4px orange;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: large;
+    border: none;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.score{
+    font-size: x-large;
+    color: navy;
+}
